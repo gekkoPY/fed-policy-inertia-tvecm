@@ -102,3 +102,69 @@ fed-policy-inertia-tvecm/
 │   └── config.toml                 # Bloomberg dark palette theme configuration
 ├── requirements.txt                # Production environment dependencies
 └── README.md                       # Comprehensive institutional documentation
+
+
+
+
+
+
+## Quickstart Installation
+
+### Prerequisites
+* Python 3.10, 3.11, or 3.12 (Anaconda/Miniconda recommended)
+* Optional: St. Louis Fed FRED API Key (free registration)
+
+### Setup & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm.git](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm.git)
+   cd fed-policy-inertia-tvecm
+   ```
+
+2. **Create and activate environment:**
+   ```bash
+   conda create -n fed-tvecm python=3.11 -y
+   conda activate fed-tvecm
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Launch the Dashboard:**
+   You can launch the dashboard using standard Python (auto-launch wrapper enabled) or direct Streamlit:
+   ```bash
+   python app.py
+   ```
+   *Alternatively:*
+   ```bash
+   streamlit run app.py
+   ```
+   The browser terminal will automatically initialize at `http://localhost:8501`.
+
+---
+
+## Author & Citation
+
+**Tommaso De Benedetti**  
+*MSc in Banking & Financial Intermediaries, LUISS Guido Carli University (Rome)*  
+*Focus: Quantitative Finance, Macro Research & Fixed Income Derivatives*
+
+If utilizing this codebase or econometric methodology for academic or institutional research, please cite:
+
+```bibtex
+@misc{debenedetti2026fedtvecm,
+  author = {De Benedetti, Tommaso},
+  title = {Federal Reserve Policy Inertia: A Threshold Vector Error Correction Approach},
+  year = {2026},
+  publisher = {GitHub},
+  howpublished = {\url{[https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm)}}
+}
+```
+
+---
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
