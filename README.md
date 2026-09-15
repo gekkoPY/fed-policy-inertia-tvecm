@@ -118,7 +118,7 @@ fed-policy-inertia-tvecm/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm.git](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm.git)
+   git clone [https://github.com/gekkoPY/fed-policy-inertia-tvecm.git](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm.git)
    cd fed-policy-inertia-tvecm
    ```
 
@@ -160,7 +160,7 @@ If utilizing this codebase or econometric methodology for academic or institutio
   title = {Federal Reserve Policy Inertia: A Threshold Vector Error Correction Approach},
   year = {2026},
   publisher = {GitHub},
-  howpublished = {\url{[https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm)}}
+  howpublished = {\url{[https://github.com/gekkoPY/fed-policy-inertia-tvecm](https://github.com/YOUR_USERNAME/fed-policy-inertia-tvecm)}}
 }
 ```
 
